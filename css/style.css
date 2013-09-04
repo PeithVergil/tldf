@@ -1,5 +1,5 @@
 body {
-    background: url("../img/TLDF-Register.png") no-repeat top center;
+    /*background: url("../img/TLDF-Register.png") no-repeat top center;*/
 }
 
 .container {
@@ -25,9 +25,71 @@ body {
     border: 1px solid #d9d9d9;
 }
 
-#register .content .padding {
+#register #contents {
     max-width: 500px;
     margin: 0 auto;
+}
+
+#register #contents header {
+    font-size: 175%;
+    margin: 55px 0;
+}
+
+#register #contents .step {
+    padding: 28px 0 28px 55px;
+}
+
+#register #contents .step:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+#register #contents .step .step-icon {
+    background: transparent url("../images/register-sprite.png") no-repeat;
+    height: 75px;
+    width: 76px;
+    float: left;
+}
+
+#register #contents .step1 .step-icon {
+    background-position: 0 0;
+    
+}
+
+#register #contents .step2 .step-icon {
+    background-position: -76px 0;
+}
+
+#register #contents .step .wrap {
+    margin: 0 0 0 100px;
+}
+
+#register #contents .step .wrap ul,
+#register #contents .step .wrap li {
+    float: left;
+}
+
+#register #contents .step .wrap ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#register #contents .step .wrap li {
+    font-size: 150%;
+}
+
+#register #contents .step .wrap li.text {
+    border-right: 2px solid #000;
+    margin-right: 18px;
+    font-size: 215%;
+    min-width: 225px;
+    padding: 10px 10px 10px 0;
+}
+
+#register #contents .step .wrap li.link {
+    margin: 15px 0;
 }
 
 #root-footer {
