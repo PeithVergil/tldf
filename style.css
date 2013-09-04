@@ -1,0 +1,117 @@
+/* RESET BROWSER STYLING  */
+/* No list-markers by default - must redefine bullets w/ bg graphics */
+ul,ol, li { list-style-type: none; }
+/* Avoid browser default inconsistent heading font-sizes and pre/code */
+h1,h2,h3,h4,h5,h6,pre,code,td { font-size:1em; }
+/* Remove inconsistent (among browsers) default padding or margin */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,address,blockquote,fieldset,input,label,div,dd,dt,dl,fieldset,table,tr,td,hr,script { margin:0; padding:0; }
+/* prevent blue linked image borders */
+a img,:link img,:visited img,fieldset { border:none; }
+
+/* slightly enhanced, universal clearfix hack */
+.clearfix:after {  visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Defaults */
+a:focus { outline:none }
+a,.invert a:hover,a:hover.invert { color: #7792ba; text-decoration: none; }
+a:hover,.invert a,a.invert { color:#fff; }
+
+
+.wrap { max-width: 990px ; /*background: url(whole.jpg) top center no-repeat;*/}
+
+.hide { display: none; }
+.acenter { text-align: center; }
+
+body { font-family: "Helvetica", sans-serif;color:#8e8e8e; background-color: #fff; text-align: left; }
+#main { width: 100%; float:left;padding: 21px 31px;}
+
+/*Bootstrap Overrides*/
+
+.page-header{margin:0px;height: 113px;}
+
+/* Custom CSS */
+
+#logo{clear:both;background:url(images/logo.png) no-repeat center; height:69px;margin-top: 43px;}
+#header{clear:both;background:url(images/header.jpg) no-repeat center; height:774px;}
+
+#signup{
+	clear:both;background:url(images/signup.png) no-repeat center; height:619px;padding: 18px 17px;
+}
+
+#signup form{
+	height: 584px;
+	width: 100%;
+	background: #fff;
+	float: right;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+
+/*text-shadow: -3px 3px 2px rgba(211, 197, 197, 0.76);*/
+
+#footer{clear:both;background:#3587db; height:62px;color:#fff;line-height: 62px;}
+
+
+/*Featured*/
+.featured{
+	text-align: center;
+}
+
+.featured img{
+	margin-right: 15px;
+	margin-bottom: 35px;
+}
+
+.featured img:last-child{
+	margin-right: 0;
+}
+
+
+.gray_box{
+	border:1px solid #e0e0e0;
+	text-align: center; 
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	min-height: 258px;
+	margin-bottom: 2px;
+}
+
+.options .col-md-12{
+	clear:both;
+}
+.options .col-xs-6{
+	margin-bottom: 20px;
+}
+
+#main h1 {
+	color:#900303; 
+	font-family: "Helvetica", sans-serif;
+	font-size: 300%;
+	font-weight: bolder;
+	text-align: center;
+	margin: 12px auto 22px;
+}
+
+#main h2 {
+	color:#900303; 
+	font-family: "Helvetica", sans-serif;
+	font-size: 220%;
+	font-weight: bolder;
+	text-align: center;
+	margin: 12px auto 22px;
+}
+
+.content p{
+	margin-bottom: 11px;
+}
