@@ -18,7 +18,7 @@
 <div class="container wrap">
 	
 	<div class="page-header">
-        <div id="logo"></div>
+        <div id="logo" class="acenter"><img src="images/logo.png"></div>
         
     </div>
 	
@@ -27,7 +27,7 @@
 		  <div class="col-md-5 col-md-offset-7">
 			<form class="form-horizontal" role="form">
 				<h1>Try For Free</h1>
-				<a href="#" id="fb_login"></a>
+				<a href="#"><img src="images/fb_login.png" class="acenter"></a>
 				<p style="margin-bottom: 11px;">&mdash;&mdash;&mdash;&nbsp;or create an account&nbsp;&mdash;&mdash;&mdash;</p>
 
 				<div class="form-group">
