@@ -46,6 +46,35 @@ body { font-family: "Helvetica", sans-serif;color:#8e8e8e; background-color: #ff
 	clear:both;background:url(images/signup.png) no-repeat center; height:619px;padding: 18px 17px;
 }
 
+#signup a{
+	color:#000;
+	text-decoration:underline;
+}
+
+#signup .form-group{
+	margin-bottom: 7px;
+}
+
+#signup .col-lg-9{
+	width: 70%;
+	padding-left: 7px;
+}
+
+#signup label{
+	color: #000;
+	font-weight: normal;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 30%;
+}
+
+#signup form h1{
+	font-family: 'Linden Hill', serif;
+	color: #000;
+	font-size: 289%;
+	height: 44px;
+	margin-bottom: 4px;
+}
 #signup form{
 	height: 584px;
 	width: 100%;
@@ -53,9 +82,32 @@ body { font-family: "Helvetica", sans-serif;color:#8e8e8e; background-color: #ff
 	float: right;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
-	
+	border-radius: 5px;	
+	text-align: center;
+	padding: 12px 15px 0 15px;
+	color: #000;
 }
+
+#fb_login {
+	background: url(images/fb_login.png) no-repeat;
+	width: 257px;
+	height: 44px;
+	line-height: 30px;
+	text-indent: -999px;
+	display: block;
+	margin: 0 auto 15px;
+}
+
+#button_start-now {
+	background: url(images/button_start-now.png) no-repeat;
+	width: 218px;
+	height: 56px;
+	text-indent: -999px;
+	display: block;
+	margin: 0 auto 15px;
+	border:none;
+}
+
 
 /*text-shadow: -3px 3px 2px rgba(211, 197, 197, 0.76);*/
 
