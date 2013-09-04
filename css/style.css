@@ -1,0 +1,45 @@
+body {
+    background: url("../img/TLDF-Register.png") no-repeat top center;
+}
+
+.container {
+    max-width: 966px;
+}
+
+#root-header {
+    border-bottom: 2px solid #c5c5c5;
+    background: transparent url("../img/bg-root-header.png") repeat-x;
+    padding: 13px 0;
+}
+
+#header-image {
+    background: transparent url("../img/register-header.png") center no-repeat;
+    height: 78px;
+}
+
+#register .content {
+    padding: 55px 0
+}
+
+#register .content .container {
+    border: 1px solid #d9d9d9;
+}
+
+#register .content .padding {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#root-footer {
+    background: transparent url("../img/bg-root-footer.png") repeat-x;
+    padding: 15px 0;
+    color: #ffffff;
+}
+
+#root-footer ul {
+    list-style: none;
+}
+
+#root-footer li {
+    
+}
