@@ -32,14 +32,39 @@ body {
 
 #root-footer {
     background: transparent url("../img/bg-root-footer.png") repeat-x;
+    font-size: 85%;
     padding: 15px 0;
     color: #ffffff;
 }
 
-#root-footer ul {
-    list-style: none;
+#root-footer .copy {
+    float: left;
 }
 
-#root-footer li {
-    
+#root-footer .links {
+    float: right;
+}
+
+#root-footer .links ul,
+#root-footer .links li {
+    float: left;
+}
+
+#root-footer .links a {
+    color: #ffffff;
+}
+
+#root-footer .links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#root-footer .links li {
+    border-left: 1px solid #ffffff;
+    padding: 0 5px;
+}
+
+#root-footer .links li:first-child {
+    border: none;
 }
