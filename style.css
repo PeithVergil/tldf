@@ -38,12 +38,13 @@ body { font-family: "Helvetica", sans-serif;color:#8e8e8e; background-color: #ff
 .page-header{margin:0px;height: 113px;}
 
 /* Custom CSS */
+img { height: auto; max-width: 100%; }
 
-#logo{clear:both;background:url(images/logo.png) no-repeat center; height:69px;margin-top: 43px;}
+#logo{clear:both;/* background:url(images/logo.png) no-repeat center; */ height:69px;margin-top: 43px;}
 #header{clear:both;background:url(images/header.jpg) no-repeat center; height:774px;}
 
 #signup{
-	clear:both;background:url(images/signup.png) no-repeat center; height:619px;padding: 18px 17px;
+	clear:both;background:url(images/signup.png) #eb9bc0 no-repeat center; min-height:619px;padding: 18px 17px;
 }
 
 #signup a{
@@ -56,8 +57,8 @@ body { font-family: "Helvetica", sans-serif;color:#8e8e8e; background-color: #ff
 }
 
 #signup .col-lg-9{
-	width: 70%;
-	padding-left: 7px;
+/* 	width: 70%;
+	padding-left: 7px; */
 }
 
 #signup label{
@@ -65,7 +66,11 @@ body { font-family: "Helvetica", sans-serif;color:#8e8e8e; background-color: #ff
 	font-weight: normal;
 	padding-left: 0px;
 	padding-right: 0px;
-	width: 30%;
+	/* width: 30%; */
+}
+
+#signup label.radio-inline{
+	padding-left: 20px;
 }
 
 #signup form h1{
@@ -76,7 +81,7 @@ body { font-family: "Helvetica", sans-serif;color:#8e8e8e; background-color: #ff
 	margin-bottom: 4px;
 }
 #signup form{
-	height: 584px;
+	min-height: 584px;
 	width: 100%;
 	background: #fff;
 	float: right;
