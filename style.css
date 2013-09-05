@@ -29,8 +29,9 @@ a:hover,.invert a,a.invert { color:#fff; }
 
 .hide { display: none; }
 .acenter { text-align: center; }
+.bold { font-weight:bold; }
 
-body { font-family: "Helvetica", sans-serif;font-size:14px;color:#8e8e8e; background-color: #fff; text-align: left; }
+body { font-family: "Helvetica", sans-serif;font-size:14px;color:#000000; background-color: #fff; text-align: left; }
 #main { width: 100%; float:left;padding: 21px 31px;}
 
 /*Bootstrap Overrides*/
@@ -156,6 +157,10 @@ img { height: auto; max-width: 100%; }
 	border-radius: 10px;
 	min-height: 258px;
 	margin-bottom: 2px;
+}
+
+.options{
+	font-size:17px;
 }
 
 .options .col-md-12{
