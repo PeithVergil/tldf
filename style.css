@@ -30,17 +30,31 @@ a:hover,.invert a,a.invert { color:#fff; }
 .hide { display: none; }
 .acenter { text-align: center; }
 
-body { font-family: "Helvetica", sans-serif;color:#8e8e8e; background-color: #fff; text-align: left; }
+body { font-family: "Helvetica", sans-serif;font-size:14px;color:#8e8e8e; background-color: #fff; text-align: left; }
 #main { width: 100%; float:left;padding: 21px 31px;}
 
 /*Bootstrap Overrides*/
 
-.page-header{margin:0px;height: 113px;}
+.page-header{margin:0px;min-height: 113px;}
 
 /* Custom CSS */
 img { height: auto; max-width: 100%; }
 
-#logo{clear:both;/* background:url(images/logo.png) no-repeat center; */ height:69px;margin-top: 43px;}
+#logo{clear:both;/* background:url(images/logo.png) no-repeat center; */margin-top: 43px;}
+
+#logo h1 {
+	font-family: "Helvetica", sans-serif;
+	font-size: 5.3em; 
+	font-size: 504%;
+	line-height: 56px;
+	text-align: center;
+	font-weight: bold;
+	color: #910303;
+	border: 0;
+	letter-spacing: 1px;
+	text-shadow: 2px 1px 0px #fff, 5px 3px 0px rgba(0,0,0,0.15);
+	margin-bottom: 57px;
+}
 #header{clear:both;background:url(images/header.jpg) no-repeat center; height:774px;}
 
 #signup{
