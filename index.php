@@ -168,7 +168,10 @@
 						<img src="images/get_connected.png">
 					  </div>
 					  <div class="col-md-8">
+						<p class="bold">Get Connected</p>
+						<p>
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+						</p>
 					  </div>
 					</div>
 				</div>
