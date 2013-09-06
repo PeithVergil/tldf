@@ -133,7 +133,6 @@ img { height: auto; max-width: 100%; }
 
 #footer{clear:both;background:#3587db; height:62px;color:#fff;line-height: 62px;}
 
-
 /*Featured*/
 .featured{
 	text-align: center;
@@ -148,16 +147,75 @@ img { height: auto; max-width: 100%; }
 	margin-right: 0;
 }
 
+/* ### Nathamon Section ### */
 
 .gray_box{
-	border:1px solid #e0e0e0;
-	text-align: center; 
+	border: 1px solid #e0e0e0;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	min-height: 258px;
 	margin-bottom: 2px;
+	padding: 10px;
 }
+
+.gray_box .inner {
+	position: relative;
+}
+
+#finally {
+	text-align: center;
+	font-size: 170%;
+	max-width: 460px;
+	padding: 75px 0;
+	margin: 0 auto;
+}
+
+#skype,
+#nathamon {
+	position: absolute;
+}
+
+#nathamon {
+	max-width: 270px;
+	bottom: 0;
+	left: 0;
+}
+
+#nathamon a {
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+
+#nathamon .name,
+#nathamon .title {
+	text-align: center;
+}
+
+#nathamon .name {
+	font-size: 165%;
+}
+
+#nathamon .title {
+	font-size: 125%;
+}
+
+#skype {
+	height: 115px;
+	width: 137px;
+	bottom: 15px;
+	right: 10px;
+}
+
+#skype a {
+	background: transparent url("images/skype_icon.png") no-repeat;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+/* ### Nathamon Section ### */
 
 .options{
 	font-size:17px;
