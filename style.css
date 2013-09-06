@@ -216,6 +216,30 @@ img { height: auto; max-width: 100%; }
 	width: 100%;
 }
 
+#case_study .inner {
+	padding: 20px 40px;
+}
+
+#case_study .row {
+	margin-bottom: 30px;
+}
+
+#case_study .row:last-child {
+	margin-bottom: 0;
+}
+
+#case_study p {
+	font-size: 140%;
+}
+
+#case_study img {
+	-webkit-box-shadow: 2px 2px 5px #6b6b6b;
+	   -moz-box-shadow: 2px 2px 5px #6b6b6b;
+	        box-shadow: 2px 2px 5px #6b6b6b;
+}
+
+/* ### Nathamon Section ### */
+
 /* ### Discover Section ### */
 .options{
 	font-size:17px;
@@ -306,4 +330,9 @@ img { height: auto; max-width: 100%; }
 
 .content p{
 	margin-bottom: 11px;
+}
+
+#case_study h2 {
+	margin-bottom: 30px;
+	font-size: 200%;
 }
