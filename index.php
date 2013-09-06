@@ -246,7 +246,7 @@
 		<div class="row">
 		  <div class="col-md-12">
 
-				<h1>Meet Our Team</h1>
+				<h1>Meet Our Team<img src="images/coffee.png"></h1>
 				
 		  </div>
 		</div>

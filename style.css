@@ -21,8 +21,8 @@ a img,:link img,:visited img,fieldset { border:none; }
 
 /* Defaults */
 a:focus { outline:none }
-a,.invert a:hover,a:hover.invert { color: #7792ba; text-decoration: none; }
-a:hover,.invert a,a.invert { color:#fff; }
+a,.invert a:hover,a:hover.invert { color: #2985ff; text-decoration: none; }
+a:hover,.invert a,a.invert { color:#2985ff; }
 
 
 .wrap { max-width: 990px ; /*background: url(whole.jpg) top center no-repeat;*/}
@@ -154,7 +154,6 @@ img { height: auto; max-width: 100%; }
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	min-height: 258px;
 	margin-bottom: 2px;
 	padding: 10px;
 }
@@ -170,6 +169,8 @@ img { height: auto; max-width: 100%; }
 	padding: 75px 0;
 	margin: 0 auto;
 }
+
+/* ### Nathamon Section ### */
 
 #skype,
 #nathamon {
@@ -215,8 +216,7 @@ img { height: auto; max-width: 100%; }
 	width: 100%;
 }
 
-/* ### Nathamon Section ### */
-
+/* ### Discover Section ### */
 .options{
 	font-size:17px;
 }
@@ -226,6 +226,63 @@ img { height: auto; max-width: 100%; }
 }
 .options .col-xs-6{
 	margin-bottom: 20px;
+}
+
+/* ### Team Section ### */
+#team h1{
+	margin-bottom: 18px;
+}
+
+#team h3,h4{
+	float: left;
+	color: #686868;
+	font-weight: bold;
+	font-family: "Helvetica", sans-serif;
+	font-size: 18px;
+}
+#team h4{
+	margin: 0px 13px 15px;
+	width: 100%;
+}
+#team h3{
+	line-height: 64px;
+	font-size: 29px;
+}
+
+#team .widget_header{
+    margin-bottom: 15px;
+    height: 64px;
+	margin-left: 3px;
+}
+
+#team .widget_header img{
+    margin-right: 15px;float: left;
+}
+#team .gray_box .blog{
+	padding: 22px 14px;
+}
+#team .col-md-4{
+	margin-right: 10px;
+	width: 302px;
+}
+
+#team .third{
+	padding:0;
+	font-size: 15px;
+	margin-right: 0px;
+}
+
+#team .third .gray_box{
+	padding: 20px 13px 2px;
+	margin-bottom: 20px;
+}
+
+#team .gray_box p{
+	color: #7c7c7c;line-height: 1.75;margin: 0 13px 18px;
+}
+
+#team .gray_box a{
+	font-size: 15px;
 }
 
 #main h1 {
