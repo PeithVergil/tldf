@@ -1,5 +1,5 @@
 body {
-    /*background: url("../img/TLDF-Register.png") no-repeat top center;*/
+    /*background: url("../images/TLDF-Register.png") no-repeat top center;*/
 }
 
 .container {
@@ -8,12 +8,12 @@ body {
 
 #root-header {
     border-bottom: 2px solid #c5c5c5;
-    background: transparent url("../img/bg-root-header.png") repeat-x;
+    background: transparent url("../images/bg-root-header.png") repeat-x;
     padding: 13px 0;
 }
 
 #header-image {
-    background: transparent url("../img/register-header.png") center no-repeat;
+    background: transparent url("../images/register-header.png") center no-repeat;
     height: 78px;
 }
 
@@ -22,6 +22,10 @@ body {
 }
 
 #register .content .container {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: transparent url("../images/register_lady.png") left bottom no-repeat;
     border: 1px solid #d9d9d9;
 }
 
@@ -92,8 +96,20 @@ body {
     margin: 15px 0;
 }
 
+#register #contents footer {
+    margin: 50px 0 30px;
+}
+
+#register #contents #link-enter {
+    background: transparent url("../images/btn_register_enter.png") no-repeat;
+    display: block;
+    margin: 0 auto;
+    height: 69px;
+    width: 314px;
+}
+
 #root-footer {
-    background: transparent url("../img/bg-root-footer.png") repeat-x;
+    background: transparent url("../images/bg-root-footer.png") repeat-x;
     font-size: 85%;
     padding: 15px 0;
     color: #ffffff;
