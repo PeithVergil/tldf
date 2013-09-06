@@ -158,7 +158,7 @@
 		<div class="row options">
 		
 			 <div class="col-md-12">
-				<h1 style="line-height:49px">Discover How We Can Help You Find Your Perfect Partner</h1>
+				<h1 style="line-height: 49px;font-size: 2.4em;width: 70%;margin:0px auto 37px;">Discover How We Can Help You Find Your Perfect Partner</h1>
 			</div>
 			
 			<div class="col-md-12">
