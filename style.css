@@ -131,7 +131,44 @@ img { height: auto; max-width: 100%; }
 
 /*text-shadow: -3px 3px 2px rgba(211, 197, 197, 0.76);*/
 
-#footer{clear:both;background:#3587db; height:62px;color:#fff;line-height: 62px;}
+#root-footer {
+    background: #1a5ca2 url("images/bg-root-footer.png") repeat-x;
+    font-size: 85%;
+    padding: 15px 0;
+    color: #ffffff;
+}
+
+#root-footer .copy {
+    float: left;
+}
+
+#root-footer .links {
+    float: right;
+}
+
+#root-footer .links ul,
+#root-footer .links li {
+    float: left;
+}
+
+#root-footer .links a {
+    color: #ffffff;
+}
+
+#root-footer .links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#root-footer .links li {
+    border-left: 1px solid #ffffff;
+    padding: 0 5px;
+}
+
+#root-footer .links li:first-child {
+    border: none;
+}
 
 /*Featured*/
 .featured{
