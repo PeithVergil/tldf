@@ -241,6 +241,14 @@ img { height: auto; max-width: 100%; }
 /* ### Nathamon Section ### */
 
 /* ### Discover Section ### */
+#discover-title {
+	margin-bottom: 40px;
+}
+
+#discover-title h1 {
+	line-height: 49px;
+}
+
 .options{
 	font-size:17px;
 }
@@ -248,8 +256,18 @@ img { height: auto; max-width: 100%; }
 .options .col-md-12{
 	clear:both;
 }
-.options .col-xs-6{
-	margin-bottom: 20px;
+
+.options .opt {
+	margin-bottom: 30px;
+}
+
+.options header h3 {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.options p {
+	margin: 20px 0;
 }
 
 /* ### Team Section ### */
