@@ -59,7 +59,15 @@ img { height: auto; max-width: 100%; }
 #header{clear:both;background:url(images/header.jpg) no-repeat center; height:774px;}
 
 #signup{
-	clear:both;background:url(images/signup.png) #e88eb8 no-repeat center; min-height:619px;padding: 18px 17px;
+	clear:both;background:url(images/bg-pink.png) #e88eb8 no-repeat fixed; min-height:619px;padding: 18px 17px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#signup .wrap {
+	background: transparent url(images/model.png) no-repeat left bottom;
 }
 
 #signup a{
