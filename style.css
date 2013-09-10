@@ -68,6 +68,12 @@ img { height: auto; max-width: 100%; }
 
 #signup .wrap {
 	background: transparent url(images/model.png) no-repeat left bottom;
+	max-width:960px;
+}
+
+
+#signup .signup_form {
+	padding-left: 12px;
 }
 
 #signup a{
