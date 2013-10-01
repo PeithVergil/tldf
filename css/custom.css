@@ -1,0 +1,88 @@
+#logo h1{
+	border: 0 none;
+	color: #910303;
+	font-size: 70px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+	text-shadow: 2px 1px 0 #FFFFFF, 5px 3px 0 rgba(0, 0, 0, 0.15);
+	text-decoration: none;
+}
+
+#logo a, #logo a:hover, #logo a:focus{
+    text-decoration: none !important;
+}
+.navbar-container{
+	margin:0 auto;
+} 
+
+#photos > img {
+
+	width: 100px;
+	height: 100px;	
+	margin: 10px 5px;
+}
+ 
+
+.tabContainer{
+	height: 357px;
+}
+.banner {
+	height: 300px;
+	width:230px;
+	background: #6d58c8;
+	text-align: center;
+	padding: 30px;
+}
+.banner h2{
+	padding-top: 50px;
+}
+
+.tab-content{
+	overflow-x: hidden;
+	padding: 15px;
+	border: 1px solid #c3c3c3;
+	background: #f6f5f5;
+	height: 280px;
+}
+.line{
+	background: url(../images/violet_line.png) repeat-x right;
+	width: 100%;
+}
+
+.contents h3{
+	margin-top: -28px;
+	background: #fff;
+	width: 121px;
+	margin-left: 46px;
+	padding: 5px;
+}
+.banner-content{
+	background: #6d58c8;
+	text-align: center;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+.gray_box{
+	border: 1px solid #e0e0e0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 2px;
+	padding: 10px;
+}
+
+.gray_box .inner {
+	position: relative;
+}
+
+.wrap{
+	max-width: 960px;
+}
+
+.nav a {
+	font-weight: bold;
+}
+
+
