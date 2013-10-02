@@ -25,10 +25,10 @@
  
 
 .tabContainer{
-	height: 357px;
+	height: 400px;
 }
 .banner {
-	height: 300px;
+	height: 516px;
 	width:230px;
 	background: #6d58c8;
 	text-align: center;
@@ -41,9 +41,11 @@
 .tab-content{
 	overflow-x: hidden;
 	padding: 15px;
-	border: 1px solid #c3c3c3;
 	background: #f6f5f5;
 	height: 280px;
+	border-bottom:1px solid #e4e4e4;
+	border-left:1px solid #e4e4e4;
+	border-right:1px solid #e4e4e4;
 }
 .line{
 	background: url(../images/violet_line.png) repeat-x right;
@@ -61,7 +63,7 @@
 	background: #6d58c8;
 	text-align: center;
 	padding: 10px;
-	margin: 20px 0;
+	margin: 20px 0;git
 }
 
 .gray_box{
@@ -84,5 +86,121 @@
 .nav a {
 	font-weight: bold;
 }
+.button_one{
+	 background: none repeat scroll 0 0 #6d58c8 !important;
+    margin: 9px;
+    padding: 5px 10px !important;
+    color: #fff !important;
+    max-width:100px;
+}
+
+.menu-nav .active a{
+	color: #7662cb !important;
+	background: none !important;
+}
+.container{
+	max-width: 960px !important;
+}
+#navigation{
+	background: url(../images/nav.png) repeat-x #f4f5f7 !important;
+}
 
 
+.nav-tabs li.active a{
+	border-top:1px solid #e4e4e4 !important;
+	border-left:1px solid #e4e4e4 !important;
+	border-right:1px solid #e4e4e4 !important;
+	border-bottom: none !important;
+	background: #f6f5f5 !important;
+}
+.nav-tabs > li > a {
+	color: #333333 !important;
+	border:1px solid #e4e4e4 !important;
+	background: #f6f5f5 !important;
+	border-radius: 10px 10px 0px 0px !important;
+}
+
+
+.nav-links > li > a{
+	padding: 5px 6px !important;
+	margin-top: 10px;
+	display: inline-block !important;
+}
+.nav-tabs li a {
+	margin-right: 10px !important; 
+}
+.nav-links {
+height:30px;
+}
+.profile-photo img{
+	height: 320px;
+}
+.menu-nav > li > a{
+	height: 50px !important;
+}
+
+.divider-link{
+ 	background: url(../images/divider.png) no-repeat;
+	display: inline-block;
+	height: 20px;
+	width: 5px;
+	position: relative;
+	top: 5px;
+
+}
+
+#root-footer {
+    background: transparent url("../images/bg-root-footer.png") repeat-x;
+    font-size: 85%;
+    padding: 15px 0;
+    color: #ffffff;
+}
+
+#root-footer .copy {
+    float: left;
+}
+
+#root-footer .links {
+    float: right;
+}
+
+#root-footer .links ul,
+#root-footer .links li {
+    float: left;
+}
+
+#root-footer .links a {
+    color: #ffffff;
+}
+
+#root-footer .links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#root-footer .links li {
+    border-left: 1px solid #ffffff;
+    padding: 0 5px;
+}
+
+#root-footer .links li:first-child {
+    border: none;
+}
+.search-icon {
+	display: inline-block;
+	width: 38px;
+	height: 28px;
+	margin-top: 1px;
+	background: url(../images/search.png) #fefefe;
+	background-repeat: no-repeat;
+	position: relative;
+    right: 34px;
+    border-left: 2px solid #f6f5f5!important;
+    top: -2px;
+}
+
+#appendedInputButton{
+	border-radius: 10px;
+	padding: 5px;
+}

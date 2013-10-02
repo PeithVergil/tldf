@@ -5,63 +5,61 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
 	<title>Thai Lady Date Finder Customer Home Page</title>
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 	<link href='http://fonts.googleapis.com/css?family=Linden+Hill' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/custom.css" />
-	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
-	 <script src="js/jquery.js"></script>
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-	<script>
-	  $(function () {
-	    $('#myTab').tab('show');
-	  })
-	</script>
+
 </head>
 <body>
 
-	<header>
-		<div id="logo" class="acenter"><a href="#"><h1>Thai Lady Date Finder</h1></a></div>
-		<div style="margin-left:auto; margin-right:auto;">
-			
-		</div>
-	</header>
 	<div class="container wrap ">
-		<div class="navbar navbar-default">
-				<div class="navbar-header">
-			          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-			            <span class="icon-bar"></span>
-			            <span class="icon-bar"></span>
-			            <span class="icon-bar"></span>
-			          </button>
-		      	</div>
-		        <div class="navbar-collapse collapse">
-	      			<ul class="nav navbar-nav">
-			            <li class="active"><a href="#">Home</a></li>
-			            <li><a href="#">Search</a></li>
-			            <li><a href="#">Kiss</a></li>
-			            <li><a href="#">Hot List</a></li>
-			            <li><a href="#">e-Cards</a></li>
-		              	<li><a href="#">Mail Box</a></li>
-		              	<li><a href="#">Chat</a></li>
-		              	<li><a href="#">Cam</a></li>
-		              	<li><a href="#">Shop</a></li>
-					</ul>
-					<button href="#" class="btn btn-primary">LOGOUT</button>
-		        </div><!--/.nav-collapse -->
-			</div>
+		<div id="logo" class="acenter"><a href="#"><h1>Thai Lady Date Finder</h1></a></div>
+	</div>
+	<div class="navbar navbar-default navbar-static-top" id="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav menu-nav">
+             <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Search</a></li>
+              <li><a href="#">Kiss</a></li>
+              <li><a href="#">Hot List</a></li>
+              <li><a href="#">e-Cards</a></li>
+              <li><a href="#">Mail Box</a></li>
+              <li><a href="#">Chat</a></li>
+              <li><a href="#">Cam</a></li>
+              <li><a href="#">Shop</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="btn btn-primary button_one" >LOGOUT</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	<div class="container wrap ">
+		<div class="content">
 			<div class="row">
 				<div class="col-md-8"></div>
 				<div class=".col-md-4"> 
 					<form class="form-search">
-						  <input type="text" class="input-medium search-query">
-						  <button type="submit" class="btn">Search</button>
+						  <div class="input-append">
+						  <input class="span2" id="appendedInputButton" type="search">
+  						<button class="btn search-icon" type="button"></button>
+						</div>
+
 					</form> 
 				</div>
 			</div>
-		<div class="content">
 				<div class="row">
-				  <div class="col-md-3"><img src="images/boy_img.jpg" class="img-thumbnail">
+				  <div class="col-md-3 profile-photo"><img src="images/boy_img.jpg" class="img-thumbnail">
 				  	<p> <span class="row"> 55% Complete | <a href="#">Add more info</a> </span></p> 
 				  </div>
 				  <div class="col-md-9">
@@ -71,7 +69,7 @@
 							  <li><a href="#video" data-toggle="tab">Video</a></li>
 						  	</ul>
 							<div class="tab-content">	
-							  <div class="tab-pane active " id="photos"> 
+							  <div class="tab-pane active" id="photos"> 
 							  		<img src="images/boy_img.jpg" class="img-thumbnail">
 							  		<img src="images/boy_img.jpg" class="img-thumbnail">
 							  		<img src="images/boy_img.jpg" class="img-thumbnail">
@@ -85,16 +83,19 @@
 							  		<img src="images/boy_img.jpg" class="img-thumbnail">
 							  		<img src="images/boy_img.jpg" class="img-thumbnail">
 							  </div>
-							  <div class="tab-pane" id="video"> </div>
+							  <div class="tab-pane" id="video">
+							  	<iframe width="320" height="240" src="//www.youtube.com/embed/B35VBpuWsBo" frameborder="0" allowfullscreen></iframe>
+							   </div>
 						  	</div>	
-
-						  	<div class="col-md-11 col-md-offset"> 
-						  		<ul class="nav nav-pills">
-						  			<li class="divider-vertical"><a href="#">My Story</a></li>
-						  			<li class="divider-vertical"><a href="#">Preview My Profile</a></li>
-						  			<li class="divider-vertical"><a href="#">Upgrade & Buy Points</a> </li>
-						  			<li ><a href="#">Account Settings & Privacy</a></li>
-						  		</ul>
+						  	<div class="row">
+							  	<div class="col-md-11 col-md-offset"> 
+							  		<ul class="nav nav-pills nav-links">
+							  			<li><a href="#">My Story</a> <span class="divider-link"> </span></li>
+							  			<li ><a href="#">Preview My Profile</a><span class="divider-link"> </li>
+							  			<li ><a href="#">Upgrade & Buy Points</a><span class="divider-link"> </li>
+							  			<li ><a href="#">Account Settings & Privacy</a></li>
+							  		</ul>
+							  	</div>
 						  	</div>
 					  	</div>
 				  </div>
@@ -247,10 +248,48 @@
 			 <!--END of Contact-->
 	</div>
 
-	<footer>
-
+	<footer id="root-footer">
+		<div class="container wrap">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="copy">
+						Copyright &copy; 2013 Meet Me Now Bangkok Co. Ltd. All rights reserved.
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="links">
+						<ul>
+							<li>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#">About</a>
+							</li>
+							<li>
+								<a href="#">Contact</a>
+							</li>
+							<li>
+								<a href="#">Terms and Conditions</a>
+							</li>
+							<li>
+								<a href="#">Privacy Policy</a>
+							</li>
+							<li>
+								<a href="#">Site Map</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
 	</footer>
-
-
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script>
+	  $(function () {
+	    //$('#myTab').tab('show');
+	  });
+	</script>
 </body>
 
